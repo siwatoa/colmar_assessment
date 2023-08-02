@@ -231,6 +231,11 @@ header{
     color: #5798e4; 
 }
 
+.link__no-chg05{
+    text-decoration: none;
+    color:#5798e4;
+}
+
 /* Study Fields Area */
 .study_field-all{
     background-color: #D8D8D8;
