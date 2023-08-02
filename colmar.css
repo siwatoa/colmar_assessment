@@ -214,3 +214,115 @@ header{
     font-size: 14px;
     color: #5798e4; 
 }
+
+/* Study Fields Area */
+.study_field-all{
+    background-color: #D8D8D8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.study_field-all h2{
+    padding: 32px 0px;  
+    text-align: center;
+}
+
+.study_field-1st,
+.study_field-2nd{
+    display: flex;
+}
+
+.study_field-SoftEngImg,
+.study_field-ComArtImg,
+.study_field-DesignImg,
+.study_field-DataImg,
+.study_field-BusinessImg,
+.study_field-MarketingImg{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.study_field-SoftEng,
+.study_field-ComArt,
+.study_field-Design,
+.study_field-Data,
+.study_field-Business,
+.study_field-Marketing{
+    background-color: #ffffff;
+    width: auto;
+    height: 100%;
+} 
+
+.study_field-SoftEngCard{
+    padding-left: 72px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.study_field-DataCard{
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 72px;
+}
+
+.study_field-ComArtCard{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.study_field-BusinessCard{
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+
+.study_field-DesignCard{
+    padding-left: 16px;
+    padding-right: 72px;
+    padding-bottom: 16px;
+}
+
+.study_field-MarketingCard{
+    padding-top: 16px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+
+.field__word-SoftEng h3,
+.field__word-ComArt h3,
+.field__word-Design h3,
+.field__word-Data h3,
+.field__word-Business h3,
+.field__word-Marketing h3{
+    padding-top: 16px;
+    padding-left: 16px; 
+    padding-bottom: 8px;  
+}
+
+.field__word-SoftEng h4,
+.field__word-ComArt h4,
+.field__word-Design h4,
+.field__word-Data h4,
+.field__word-Business h4,
+.field__word-Marketing h4{
+    padding-left: 16px;
+    padding-bottom: 8px;  
+}
+
+.field__word-SoftEng p,
+.field__word-ComArt p,
+.field__word-Design p,
+.field__word-Data p,
+.field__word-Business p,
+.field__word-Marketing p{
+    padding-left: 16px;
+    padding-bottom: 24px;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+}
