@@ -39,7 +39,7 @@ p{
     font-weight: lighter;
 }
 
-/* Top Menu Overall */ 
+/* Top Menu */ 
 
 .top__menu{
     display: flex;
@@ -52,8 +52,6 @@ p{
     height: 64px;
     background-color: #FFFFFF;
 }
-
-/* Top Menu Left */ 
 
 .top__menu-left, 
 .top__menu-leftwd{
@@ -80,8 +78,6 @@ p{
     color: #9b9b9b;
 }
 
-/* Top Menu Right */ 
-
 .top__menu-right,
 .top__menu-rightlist{
     display: flex;
@@ -92,6 +88,21 @@ p{
     font-size: 14px;
     color: #4A4A4A; 
     padding-right: 24px; 
+}
+
+.link__no-chg01{
+    text-decoration: none;
+    color:#4A4A4A;
+}
+
+.link__no-chg02{
+    text-decoration: none;
+    color:#4A4A4A;
+}
+
+.link__no-chg03{
+    text-decoration: none;
+    color:#4A4A4A;
 }
 
 /* Intro to Colmar Academy*/ 
@@ -131,6 +142,11 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: lighter;
+}
+
+.link__no-chg04{
+    text-decoration: none;
+    color:#FFFFFF;
 }
 
 /* Life in Colmar Academy Area */
@@ -181,7 +197,7 @@ header{
     display: flex;
     align-items: center;
     width: 40;
-    padding-left: 16px; 
+    padding-left: 16px;
 }  
 
 .life__image-rightcover01{
@@ -417,4 +433,9 @@ header{
     color: #4A4A4A;
     font-family: 'Roberto', sans-serif;
     font-weight: lighter;
+}
+
+.link__no-chg06{
+    text-decoration: none;
+    color:#4A4A4A;
 }
