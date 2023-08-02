@@ -327,6 +327,62 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 
+/* Exhibition Area */ 
+.exhibit__all{
+    display: flex;
+}
+
+.exhibit__clip-display{
+    display: flex; 
+    flex-direction: column;
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 100%;
+}
+
+.exhibit__clip-display video{
+    width: 100%;
+}
+
+.exhibit__word-left h3{
+    padding-top: 24px; 
+    padding-bottom: 8px;
+}
+
+.exhibit__word-left p{
+    padding-bottom: 32px; 
+}
+
+.exhibit__menu{
+    display: flex;
+    flex-direction: column; 
+    width: 40% 
+}
+
+.exhibit__fisma-img,
+.exhibit__nowthen-img{
+    width: 40%;
+}
+
+.exhibit__menupic-right1st, 
+.exhibit__menupic-right2nd{
+    display: flex;
+    align-items: center;
+    width: 70% 
+}  
+
+.exhibit__menupic-right1st,
+.exhibit__menupic-right2nd{
+    padding: 16px; 
+}
+
+.exhibit__word-right01,
+.exhibit__word-right02{
+    align-items: center;
+    padding-left: 16px;
+} 
+
 /* Footer Area */
 .copyright__cover{
     display: flex;
